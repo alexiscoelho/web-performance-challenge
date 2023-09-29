@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
   <title>The Rum Diary</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/vuex"></script>
   <script>
     // Adobe Target pre-hiding code snippet 
     (function(win, doc, style, timeout) {
@@ -78,9 +76,7 @@
   <link rel="preload" href="fonts/alegreya-v29-latin-900.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
-  <div id="cookie-vue">
-    <cookie-layer class="cookieLayer__base" v-show="displayCookieBox" v-on:accept="acceptCookies()"/>
-  </div>
+  <div id="cookie-vanilla"></div>
   <header class="header__base">
     <div class="header__content">
       <a class="header__logo" href="#">
