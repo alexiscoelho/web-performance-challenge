@@ -40,9 +40,22 @@ const cookieLayerVanillaInit = () => {
   });
 };
 
+const handleFacade = () => {
+  const template = `<iframe src="https://player.vimeo.com/video/44265326?h=1e8b36c00b&autoplay=1&loop=1&byline=0&muted=1&controls=0 " width="475" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+
+  const facadeButton = document.querySelector('.video-facade');
+
+  facadeButton.addEventListener('click', () => {
+    const container = document.querySelector('.facade-container');
+
+    container.innerHTML = template;
+  });
+};
+
 const initApp = () => {
   dynamicContent();
   cookieLayerVanillaInit();
+  handleFacade();
 };
 
 initApp();

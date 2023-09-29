@@ -933,8 +933,9 @@ body {
   color: var(--color-gray);
 }
 
-
-
+.video-facade {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 750px) {
   .header__content {
