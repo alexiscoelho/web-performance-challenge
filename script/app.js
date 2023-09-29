@@ -18,7 +18,8 @@ const dynamicContent = () => {
 
 
 const cookieLayerVanillaInit = () => {
-  const template = `<div class="cookieLayer__content cookieLayer__base">
+  const container = document.getElementById('cookie-vanilla');
+  /* const template = `<div class="cookieLayer__content cookieLayer__base">
         <h2 class="cookieLayer__title">Do you like cookies ?</h2>
         <p class="cookieLayer__text">This is the best chocolate chip cookies recipe ever! No funny ingredients, no chilling time, etc. Just a simple, straightforward, amazingly delicious, doughy yet still fully cooked, chocolate chip cookie that turns out perfectly every single time!</p>
         <p class="cookieLayer__text">The first step in making these easy chocolate chip cookies to to combine the dry ingredients in a medium size bowl. Next, cream together butter and sugars. Add the eggs & vanilla and beat to combine. Add dry ingredients and stir until just combined. Then add the chocolate chips and beat until they are evenly distributed throughout the dough.</p>
@@ -26,9 +27,8 @@ const cookieLayerVanillaInit = () => {
         <div class="cookieLayer__disclaimer">This box WAS made using Vue.js and WAS NOT super awesome !!! ............. or WAS it ???</div>
       </div>`;
 
-  const container = document.getElementById('cookie-vanilla');
 
-  container.innerHTML = template;
+  container.innerHTML = template; */
 
   document.body.classList.add('no-scroll');
 
