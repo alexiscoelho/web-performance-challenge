@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
   <title>The Rum Diary</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
     // Adobe Target pre-hiding code snippet 
     (function(win, doc, style, timeout) {
@@ -54,20 +53,13 @@
       setTimeout(() => adSpace.innerHTML = gif, 3000);
     };
 
-    // async CSS
-    function loadMobileCSS() {
-      $('head').append(`<link rel="stylesheet" type="text/css" href="styles/mobile.css">`);
-    };
-
     window.addEventListener('load', () => {
       initAd();
-      loadMobileCSS();
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js'></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://slowfil.es/file?type=css&delay=1000&sync-in-head" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css">
   <link rel="stylesheet" href="styles/index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
