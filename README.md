@@ -1,3 +1,6 @@
+
+[Deployed page](https://alexiscoelho.github.io/web-performance-challenge/)
+
 # Web Performance and Accessibility Challenge
 
 Welcome to the Web Performance and Accessibility Challenge.
